@@ -1,0 +1,15 @@
+{
+  "name": "@topl/-rollup-spooky-mutation-bug",
+  "version": "1.0.0",
+  "main": "dist/cjs/bug.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "bug": "node -e 'require(\".\")'"
+  },
+  "devDependencies": {
+    "rollup": "^1.21.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-multi-entry": "^2.1.0"
+  }
+}
