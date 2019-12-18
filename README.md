@@ -1,7 +1,9 @@
-# 🐣hatch
+# a possible bug in rollup node resolve?
 
-rollup + typescript boilerplate
+This might be an unavoidable implementation detail/fact, but this surprised me.
 
-## license
+I was able to spoof the export of another module.
 
-See [LICENSE](LICENSE)
+```sh
+$ yarn test
+```

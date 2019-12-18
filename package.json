@@ -4,8 +4,8 @@
   "main": "dist/cjs/bug.js",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c rollup.config.js",
-    "bug": "node -e 'require(\".\")'"
+    "pretest": "rollup -c rollup.config.js",
+    "test": "node -e 'require(\".\")'"
   },
   "devDependencies": {
     "rollup": "^1.21.2",
